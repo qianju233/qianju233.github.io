@@ -212,7 +212,7 @@
         <!-- 程总 -->
         <div class="team-card">
             <div class="avatar">
-                <img src="https://avatar.ahk.cc/avatar/LEE/100?scale=0.8" alt="程总">
+                <img src="https://imgchr.com/i/peRLhbn" alt="程总">
             </div>
             <div class="member-name">程总</div>
             <div class="member-post">首席技术总负责人</div>
