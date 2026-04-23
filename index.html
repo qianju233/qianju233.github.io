@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精英企业 · 核心团队</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        body {
+            background-color: #ffffff;
+            color: #222222;
+            line-height: 1.65;
+        }
+        /* 全局容器 贴合模板居中窄版排版 */
+        .container {
+            max-width: 550px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+        /* 顶部首屏区块 */
+        .hero-section {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+        .hero-en-title {
+            color: #22b559;
+            font-weight: 600;
+            font-size: 15px;
+            margin-bottom: 8px;
+        }
+        .hero-main-title {
+            font-size: 30px;
+            font-weight: 800;
+            margin-bottom: 16px;
+        }
+        .hero-desc {
+            font-size: 14px;
+            color: #666666;
+            margin-bottom: 25px;
+        }
+        .hero-btn-group {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+        .btn-primary {
+            background-color: #22b559;
+            color: white;
+            border: none;
+            padding: 9px 22px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn-link {
+            background: none;
+            border: none;
+            color: #22b559;
+            cursor: pointer;
+        }
+
+        /* 企业文化区块 */
+        .culture-section {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+        .section-subtitle {
+            color: #22b559;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 14px;
+        }
+        .section-text {
+            font-size: 14px;
+            color: #555;
+        }
+        .feature-row {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 35px;
+        }
+        .feature-card {
+            background: #f8f9fa;
+            padding: 18px 12px;
+            border-radius: 8px;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        /* 核心团队展示区块（复刻模板3宫格头像） */
+        .team-preview-section {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+        .team-3grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 35px;
+        }
+        .team-small-card img {
+            width: 100%;
+            aspect-ratio: 1/1;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+
+        /* C位核心老总专属区块 */
+        .boss-solo-section {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+        .boss-solo-card {
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .boss-solo-card img {
+            width: 200px;
+            aspect-ratio: 1/1;
+            border-radius: 14px;
+            margin-bottom: 16px;
+            border: 3px solid #22b559;
+        }
+        .boss-name {
+            font-size: 24px;
+            font-weight: 900;
+            margin-bottom: 6px;
+        }
+        .boss-job {
+            color: #22b559;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* 剩余高管列表区块 */
+        .rest-team-section {
+            text-align: center;
+            margin-bottom: 90px;
+        }
+        .rest-2row-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px 20px;
+            margin-top: 35px;
+        }
+        .person-card {
+            text-align: center;
+        }
+        .person-card img {
+            width: 130px;
+            aspect-ratio: 1/1;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            object-fit: cover;
+        }
+        .person-name {
+            font-weight: bold;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .person-position {
+            color: #22b559;
+            font-size: 14px;
+            margin-bottom: 8px;
+        }
+        .person-desc {
+            font-size: 12px;
+            color: #555;
+        }
+
+        /* 底部页脚 */
+        footer {
+            text-align: center;
+            padding-top: 40px;
+            border-top: 1px solid #eee;
+            font-size: 13px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <!-- 顶部首页 -->
+    <div class="hero-section">
+        <div class="hero-en-title">Enterprise Introduction</div>
+        <h1 class="hero-main-title">凝心聚力 · 共创卓越未来</h1>
+        <p class="hero-desc">
+            深耕行业多年，以专业立足、以诚信致远，打造行业标杆企业，携手伙伴共赢长远发展
+        </p>
+        <div class="hero-btn-group">
+            <button class="btn-primary">了解团队</button>
+            <button class="btn-link">企业理念</button>
+        </div>
+    </div>
+
+    <!-- 企业文化区块 -->
+    <div class="culture-section">
+        <div class="section-subtitle">CORPORATE CULTURE</div>
+        <h2 class="section-title">企业核心文化</h2>
+        <p class="section-text">诚信为本、极致专业、持续突破、合作共赢</p>
+
+        <div class="feature-row">
+            <div class="feature-card">诚信经营<br>坚守初心底线</div>
+            <div class="feature-card">精益求精<br>打磨极致品质</div>
+            <div class="feature-card">开拓创新<br>引领行业前行</div>
+        </div>
+    </div>
+
+    <!-- 核心骨干预览 3人横排 -->
+    <div class="team-preview-section">
+        <div class="section-subtitle">Excellent Members</div>
+        <h2 class="section-title">精英核心骨干</h2>
+        <p class="section-text">汇聚行业顶尖人才，打造高素质专业管理团队</p>
+
+        <div class="team-3grid">
+            <div class="team-small-card">
+                <img src="https://picsum.photos/id/400/300/300" alt="高管">
+            </div>
+            <div class="team-small-card">
+                <img src="https://picsum.photos/id/401/300/300" alt="高管">
+            </div>
+            <div class="team-small-card">
+                <img src="https://picsum.photos/id/402/300/300" alt="高管">
+            </div>
+        </div>
+    </div>
+
+    <!-- 程总 C位单独展示 -->
+    <div class="boss-solo-section">
+        <div class="section-subtitle">Core Leader</div>
+        <h2 class="section-title">企业最高掌舵人</h2>
+        <p class="section-text">运筹帷幄定全局，远见卓识领未来</p>
+
+        <div class="boss-solo-card">
+            <img src="https://imgchr.com/i/peRLhbn" alt="程总">
+            <div class="boss-name">程总</div>
+            <div class="boss-job">集团董事长 · 全局决策人</div>
+            <p class="section-text">
+                行业殿堂级领军人物，纵横行业数十载，精准把控企业顶层战略与发展方向，
+                凭借超前格局与强大魄力，带领企业一路跨越式成长，是团队绝对核心与精神领袖。
+            </p>
+        </div>
+    </div>
+
+    <!-- 其余全部高管完整介绍 -->
+    <div class="rest-team-section">
+        <div class="section-subtitle">Management Team</div>
+        <h2 class="section-title">完整高管团队</h2>
+        <p class="section-text">各司其职、协同并进，全方位为企业发展保驾护航</p>
+
+        <div class="rest-2row-grid">
+            <!-- 张总 -->
+            <div class="person-card">
+                <img src="https://imgchr.com/i/peRXFYV" alt="张总">
+                <div class="person-name">张总</div>
+                <div class="person-position">联合创始人 · 战略副总裁</div>
+                <div class="person-desc">深耕行业十余载，辅助全局统筹规划，精准把控发展节奏，全力落地集团所有战略布局。</div>
+            </div>
+            <!-- 赵总 -->
+            <div class="person-card">
+                <img src="https://imgchr.com/i/peRXVlF" alt="赵总">
+                <div class="person-name">赵总</div>
+                <div class="person-position">产品与商业总裁</div>
+                <div class="person-desc">精准洞察市场风口，打造标杆级产品矩阵，打通全商业链路，持续创造超高商业价值增量。</div>
+            </div>
+            <!-- 马总 -->
+            <div class="person-card">
+                <img src="https://imgchr.com/i/peRXkWT" alt="马总">
+                <div class="person-name">马总</div>
+                <div class="person-position">项目运营总指挥</div>
+                <div class="person-desc">千万级大型项目实战专家，超强落地攻坚能力，所有重大项目高效交付、零失误落地。</div>
+            </div>
+            <!-- 秦总 -->
+            <div class="person-card">
+                <img src="https://picsum.photos/id/1066/300/300" alt="秦总">
+                <div class="person-name">秦总</div>
+                <div class="person-position">全域市场品牌总裁</div>
+                <div class="person-desc">全域品牌增长操盘手，强势打造行业顶级影响力，全域破圈引爆声量，驱动业绩跨越式暴涨。</div>
+            </div>
+            <!-- 胡总 -->
+            <div class="person-card">
+                <img src="https://imgchr.com/i/peRXESU" alt="胡总">
+                <div class="person-name">胡总</div>
+                <div class="person-position">风控合规安全总裁</div>
+                <div class="person-desc">风控合规领域权威专家，搭建全链路安全防护体系，守住经营底线，护航企业基业长青。</div>
+            </div>
+            <!-- 王总 -->
+            <div class="person-card">
+                <img src="https://picsum.photos/id/1083/300/300" alt="王总">
+                <div class="person-name">王总</div>
+                <div class="person-position">技术研发总负责人</div>
+                <div class="person-desc">核心技术研发带头人，攻克无数技术难关，搭建行业顶尖技术壁垒，驱动企业持续创新升级。</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer>
+        <p>诚信为本 · 极致专业 · 持续突破 · 合作共赢</p>
+        <p style="margin-top:8px;">© 2025 精英企业 版权所有</p>
+    </footer>
+</div>
+</body>
+</html>
