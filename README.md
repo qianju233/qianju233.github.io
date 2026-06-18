@@ -1,1 +1,264 @@
-<!DOCTYPE html><br/><html lang="zh-CN"><br/><head><br/><meta charset="UTF-8"><br/><meta name="viewport" content="width=device-width, initial-scale=1.0"><br/><title>核心高管团队</title><br/><style><br/>  *{margin:0;padding:0;box-sizing:border-box;font-family:Microsoft YaHei,sans-serif}<br/>  body{background:#fff;color:#222;line-height:1.7}<br/>  .header{text-align:center;padding:60px 20px}<br/>  .header h1{font-size:30px;margin-bottom:15px}<br/>  .culture{background:#f0fdf4;padding:40px 20px;text-align:center;margin-bottom:50px}<br/>  .team{max-width:1000px;margin:0 auto;padding:0 20px}<br/>  .boss{text-align:center;margin-bottom:60px}<br/>  .boss .avatar{width:180px;height:180px;background:#16a34a;color:white;font-size:70px;display:grid;place-items:center;border-radius:20px;margin:0 auto 20px}<br/>  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}<br/>  .item{text-align:center}<br/>  .item .avatar{width:120px;height:120px;background:#16a34a;color:white;font-size:50px;display:grid;place-items:center;border-radius:15px;margin:0 auto 15px}<br/>  .name{font-size:20px;font-weight:bold}<br/>  .job{color:#16a34a;margin:5px 0 10px}<br/></style><br/></head><br/><body><br/><br/><div class="header"><br/>  <h1>顶尖核心高管团队</h1><br/>  <p>诚信为本、极致专业、持续突破、合作共赢</p ><br/></div><br/><br/><div class="culture"><br/>  <h2>企业文化</h2><br/>  <p>使命：以实力赋能行业，用价值成就未来</p ><br/>  <p>价值观：靠谱、专业、创新、共赢</p ><br/></div><br/><br/><div class="team"><br/><br/>  <!-- 程总 C位 最有排面 --><br/>  <div class="boss"><br/>    <div class="avatar">程</div><br/>    <div class="name">程总</div><br/>    <div class="job">集团董事长 · 最高决策者</div><br/>    <p>行业顶级领袖，全局战略掌舵人，定方向、定格局、定未来，是团队绝对核心。</p ><br/>  </div><br/><br/>  <div class="grid"><br/>    <div class="item"><br/>      <div class="avatar">张</div><br/>      <div class="name">张总</div><br/>      <div class="job">战略副总裁</div><br/>      <p>资深战略专家，全局统筹，稳健护航。</p ><br/>    </div><br/>    <div class="item"><br/>      <div class="avatar">赵</div><br/>      <div class="name">赵总</div><br/>      <div class="job">产品总裁</div><br/>      <p>市场洞察大师，打造爆款，创造价值。</p ><br/>    </div><br/>    <div class="item"><br/>      <div class="avatar">马</div><br/>      <div class="name">马总</div><br/>      <div class="job">运营总指挥</div><br/>      <p>项目落地战神，高效交付，零失误。</p ><br/>    </div><br/>    <div class="item"><br/>      <div class="avatar">秦</div><br/>      <div class="name">秦总</div><br/>      <div class="job">市场总裁</div><br/>      <p>品牌增长专家，强势破圈，业绩暴涨。</p ><br/>    </div><br/>    <div class="item"><br/>      <div class="avatar">胡</div><br/>      <div class="name">胡总</div><br/>      <div class="job">风控总监</div><br/>      <p>安全合规权威，守住底线，稳健长久。</p ><br/>    </div><br/>  </div><br/><br/></div><br/><br/></body><br/></html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顶尖核心团队 | 企业文化与核心力量</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #ffffff;
+            color: #222222;
+            line-height: 1.6;
+            font-family: "Microsoft YaHei", sans-serif;
+        }
+        .hero-head {
+            padding: 80px 20px;
+            text-align: center;
+        }
+        .hero-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #16a34c;
+            margin-bottom: 15px;
+        }
+        .hero-sub {
+            font-size: 16px;
+            color: #555;
+        }
+        .btn-green {
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin: 0 6px;
+            padding: 10px 24px;
+            background-color: #16a34c;
+            color: #fff;
+            transition: background 0.3s;
+        }
+        .btn-green:hover {
+            background-color: #16a34e;
+        }
+
+        .section {
+            max-width: 1200px;
+            margin: 60px auto;
+            padding: 0 20px;
+        }
+        .section-head {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .section-tag {
+            color: #16a34c;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+        .section-title {
+            font-size: 26px;
+            font-weight: 700;
+        }
+        .section-desc {
+            margin-top: 12px;
+            color: #666;
+        }
+
+        .team-grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        .team-grid-5 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+        }
+        .team-card {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            transition: 0.3s;
+        }
+        .team-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 8px 20px #00000018;
+        }
+        /* 普通成员汉字头像样式 */
+        .team-char-avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background-color: #16a34c;
+            color: #fff;
+            font-size: 48px;
+            font-weight: bold;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 12px;
+            border:3px solid #16a34c;
+        }
+        .team-name {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .team-post {
+            color: #16a34c;
+            font-size:14px;
+            margin-bottom:8px;
+        }
+        .team-info {
+            font-size:13px;
+            color:#666;
+        }
+
+        .c-lead-block {
+            max-width: 700px;
+            margin: 80px auto;
+            background: linear-gradient(135deg,#f0fdf4,#dcfce7);
+            border-radius:20px;
+            padding:40px;
+            text-align:center;
+        }
+        /* 程总大号专属汉字头像 */
+        .c-lead-char-avatar {
+            width:180px;
+            height:180px;
+            border-radius:50%;
+            background-color: #16a34c;
+            color: #fff;
+            font-size: 72px;
+            font-weight: bold;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 20px;
+            border:5px solid #16a34c;
+        }
+        .c-lead-name {
+            font-size:30px;
+            font-weight:900;
+            color:#16a34c;
+        }
+
+        footer {
+            text-align:center;
+            padding:40px 20px;
+            background:#111827;
+            color:#fff;
+            margin-top:80px;
+        }
+
+        @media(max-width:768px){
+            .team-grid-3{grid-template-columns:1fr;}
+            .team-grid-5{grid-template-columns:1fr 1fr;}
+            .team-char-avatar{
+                width:90px;
+                height:90px;
+                font-size:36px;
+            }
+            .c-lead-char-avatar{
+                width:140px;
+                height:140px;
+                font-size:56px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="hero-head">
+    <h1 class="hero-title">顶尖核心团队 · 企业文化与核心力量</h1>
+    <p class="hero-sub">凝心聚力，砥砺前行，以专业赋能企业长远发展</p>
+    <div style="margin-top:25px;">
+        <button class="btn-green">了解文化</button>
+        <button class="btn-green">认识团队</button>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-head">
+        <div class="section-tag">关于我们</div>
+        <h2 class="section-title">坚守初心 · 践行企业文化</h2>
+        <p class="section-desc">
+            我们始终秉持诚信、担当、创新、共赢的核心价值观，
+            以极致的专业能力、可靠的服务态度，
+            打造高素质、高效率、高凝聚力的顶尖核心团队。
+        </p>
+    </div>
+</div>
+
+<div class="section">
+    <div class="section-head">
+        <div class="section-tag">核心骨干</div>
+        <h2 class="section-title">核心管理层预览</h2>
+    </div>
+    <div class="team-grid-3">
+        <div class="team-card">
+            <div class="team-char-avatar">程</div>
+            <div class="team-name">程总</div>
+            <div class="team-post">创始人 / 首席执行官</div>
+            <div class="team-info">战略掌舵人，高瞻远瞩，定方向、掌未来</div>
+        </div>
+        <div class="team-card">
+            <div class="team-char-avatar">张</div>
+            <div class="team-name">张总</div>
+            <div class="team-post">技术研发总监</div>
+            <div class="team-info">技术攻坚带头人，带领团队攻克核心难题</div>
+        </div>
+        <div class="team-card">
+            <div class="team-char-avatar">赵</div>
+            <div class="team-name">赵总</div>
+            <div class="team-post">市场运营总监</div>
+            <div class="team-info">精准布局市场，拓展渠道，提升品牌影响力</div>
+        </div>
+    </div>
+</div>
+
+<div class="c-lead-block">
+    <div class="c-lead-char-avatar">程</div>
+    <div class="c-lead-name">程总 · 首席创始人</div>
+    <p style="margin-top:12px;font-size:16px;color:#333;line-height:1.8;">
+        团队领航人、全局掌舵者<br>
+        远见卓识，把控整体战略布局<br>
+        带领全体成员稳步前行，引领团队走向更高巅峰
+    </p>
+</div>
+
+<div class="section">
+    <div class="section-head">
+        <div class="section-tag">全员亮相</div>
+        <h2 class="section-title">完整高管核心团队</h2>
+    </div>
+    <div class="team-grid-5">
+        <div class="team-card">
+            <div class="team-char-avatar">程</div>
+            <div class="team-name">程总</div>
+            <div class="team-post">创始人 / 首席CEO</div>
+            <div class="team-info">团队最高领航者，统筹全局，定方向、掌未来</div>
+        </div>
+        <div class="team-card">
+            <div class="team-char-avatar">张</div>
+            <div class="team-name">张总</div>
+            <div class="team-post">技术研发总监</div>
+            <div class="team-info">核心技术攻坚，为产品保驾护航，持续创新</div>
+        </div>
+        <div class="team-card">
+            <div class="team-char-avatar">赵</div>
+            <div class="team-name">赵总</div>
+            <div class="team-post">市场运营总监</div>
+            <div class="team-info">精准布局市场，拓展渠道，提升品牌行业影响力</div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>顶尖核心团队 © 2026 版权所有</p>
+</footer>
+</body>
+</html>
